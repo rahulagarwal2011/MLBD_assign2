@@ -1,0 +1,4 @@
+Recommended t based on diminishing error improvement:
+t = 150
+
+Justification: smallest t where additional error reduction < 0.01.

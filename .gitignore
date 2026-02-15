@@ -16,9 +16,6 @@ htmlcov/
 # Ignore tests if not required to commit
 /tests/
 
-# Outputs and reports
-/outputs/
-
 # Data files
 /data/
 

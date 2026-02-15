@@ -1,0 +1,5 @@
+LSH parameters (t=160, tau=0.7):
+r (bands) = 16
+b (rows per band) = 10
+f(tau) = 0.367748
+slope(tau) = 4.200850
