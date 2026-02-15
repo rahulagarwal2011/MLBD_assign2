@@ -97,7 +97,7 @@ Format outputs as Markdown tables
 ```
 python -m src.format_outputs --bundle
 ```
-This creates `outputs/report.md` which you can paste into your PDF or convert to PDF.
+This creates `outputs/report.md`
 
 Include LSH candidate tables in the bundle
 ```
@@ -168,16 +168,9 @@ Interpretation
 - Stricter threshold `tau=0.8` reduces FN in some configs, but candidate counts drop sharply.
 - Fixed configs show that `t=200, r=10, b=20` gives the most balanced behavior among the provided options.
 
-**Testing**
-Tests are in `tests/` and cover all modules. If pytest is installed:
-```
-python -m pytest -q
-```
-
 **Reproducibility**
 - Default seed is 42.
 - All MinHash runs use fixed seeds for repeatable results.
 
 **Notes**
-- Outputs are written to `outputs/` for easy inclusion in your PDF report.
-- Use the CLI terminal output for screenshots as required by the assignment.
+- Outputs are written to `outputs/` .
